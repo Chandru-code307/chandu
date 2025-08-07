@@ -1,0 +1,19 @@
+# Core dependencies for bulk messaging system
+pywhatkit>=5.4
+selenium>=4.15.0
+webdriver-manager>=4.0.1
+
+# Web browser automation (if needed for other platforms)
+requests>=2.31.0
+urllib3>=2.0.0
+
+# Data handling and utilities
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# GUI framework (tkinter is included with Python)
+# tkinter is built-in with Python
+
+# Additional utilities
+python-dotenv>=1.0.0
+configparser>=6.0.0
