@@ -1,0 +1,26 @@
+{
+    "email_config": {
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "email": "your_email@gmail.com",
+        "password": "your_app_password_here",
+        "use_tls": true
+    },
+    "email_settings": {
+        "default_delay_seconds": 2,
+        "max_retries": 3,
+        "timeout_seconds": 30
+    },
+    "whatsapp_settings": {
+        "default_method": "pywhatkit",
+        "pywhatkit_wait_time": 20,
+        "selenium_delay_seconds": 5,
+        "default_interval_minutes": 2
+    },
+    "app_settings": {
+        "log_file_email": "email_send_log.json",
+        "log_file_whatsapp": "whatsapp_send_log.json",
+        "max_log_entries": 100,
+        "auto_backup_logs": true
+    }
+}
